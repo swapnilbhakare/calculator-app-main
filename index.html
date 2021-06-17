@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="container ">
+  <div class="main">
+    <section>
+      <nav>
+        <h1 class="branding">calc</h1>
+
+
+
+        <div id="themSwitcher" class="switcher">
+          <h2>
+            theme
+          </h2>
+          <div>
+            <span> 1 2 3</span>
+            <div class="buttonWrapper">
+              <input type='radio' name="them" id="them-1" class="them" value="them-1" />
+              <input type='radio' name="them" id="them-2" class="them" value="them-2" />
+              <input type='radio' name="them" id="them-3" class="them" value="them-3" />
+            </div>
+          </div>
+      </nav>
+
+
+    </section>
+
+    <section class="">
+      <div class="input-area">
+        <input type='text' id="screen" disabled>
+      </div>
+    </section>
+    <section class="">
+      <div class="button-wrapper">
+        <div class="small-buttons">
+          <button class="button" value="7">7</button>
+          <button class="button" value="8">8</button>
+          <button class="button" value="9">9</button>
+          <button class="button del" value="del">del</button>
+          <button class="button" value="4">4</button>
+          <button class="button" value="5">5</button>
+          <button class="button" value="6">6</button>
+          <button class="button" value="+">+</button>
+          <button class="button" value="1">1</button>
+          <button class="button" value="2">2</button>
+          <button class="button" value="3">3</button>
+          <button class="button" value="-">-</button>
+          <button class="button" value=".">.</button>
+          <button class="button" value="0">0</button>
+          <button class="button" value="/">/</button>
+          <button class="button" value="*">x</button>
+        </div>
+        <div class="big-buttons">
+          <Button class="button btn reset" value="reset">reset</Button>
+          <Button class="button btn equal-to" value="=">=</Button>
+        </div>
+
+
+      </div>
+
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Swapnil bhakare</a>.
+    </div>
+
+  </div>
+
+
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
